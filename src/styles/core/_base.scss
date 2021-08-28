@@ -1,0 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: $primary-font;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $default-font-size;
+  line-height: 1.6;
+  color: $black;
+  background-color: #fff;
+
+  .main {
+    flex-grow: 1;
+  }
+}
